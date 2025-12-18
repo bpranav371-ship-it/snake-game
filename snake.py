@@ -57,7 +57,7 @@ def game():
     game_close = False
 
     x = width / 2
-    y = height / 20
+    y = height / 2
 
     x_change = 0
     y_change = 0

@@ -1,0 +1,21 @@
+[1mdiff --git a/snake.py b/snake.py[m
+[1mindex 24d1c35..338af39 100644[m
+[1m--- a/snake.py[m
+[1m+++ b/snake.py[m
+[36m@@ -3,6 +3,7 @@[m [mimport random[m
+ [m
+ # Initialize pygame[m
+ pygame.init()[m
+[32m+[m[32mint a=0[m
+ [m
+ # Screen size[m
+ width = 800[m
+[36m@@ -56,7 +57,7 @@[m [mdef game():[m
+     game_close = False[m
+ [m
+     x = width / 2[m
+[31m-    y = height / 2[m
+[32m+[m[32m    y = height / 20[m
+ [m
+     x_change = 0[m
+     y_change = 0[m
