@@ -3,6 +3,7 @@ import random
 
 # Initialize pygame
 pygame.init()
+int a=0
 
 # Screen size
 width = 800
